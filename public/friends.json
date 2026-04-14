@@ -1,0 +1,98 @@
+[
+  {
+    "id": 1,
+    "name": "Rahim Khan",
+    "picture": "https://randomuser.me/api/portraits/men/32.jpg",
+    "email": "rahim.khan@email.com",
+    "days_since_contact": 18,
+    "status": "overdue",
+    "tags": ["school", "childhood"],
+    "bio": "Best friend since primary school in Dhaka. We played cricket every evening after classes.",
+    "goal": 14,
+    "next_due_date": "2025-07-06"
+  },
+  {
+    "id": 2,
+    "name": "Fatima Ahmed",
+    "picture": "https://randomuser.me/api/portraits/women/45.jpg",
+    "email": "fatima.ahmed92@gmail.com",
+    "days_since_contact": 7,
+    "status": "on-track",
+    "tags": ["university", "study buddy"],
+    "bio": "Roommate during undergrad at BUET. We survived all-nighters before exams together.",
+    "goal": 21,
+    "next_due_date": "2025-07-15"
+  },
+  {
+    "id": 3,
+    "name": "Arif Hossain",
+    "picture": "https://randomuser.me/api/portraits/men/67.jpg",
+    "email": "arif.hossain@outlook.com",
+    "days_since_contact": 25,
+    "status": "overdue",
+    "tags": ["work", "colleague"],
+    "bio": "Former coworker at Grameenphone. Bonded over late-night project deadlines and biryani runs.",
+    "goal": 30,
+    "next_due_date": "2025-06-28"
+  },
+  {
+    "id": 4,
+    "name": "Nadia Islam",
+    "picture": "https://randomuser.me/api/portraits/women/22.jpg",
+    "email": "nadia.islam.bd@yahoo.com",
+    "days_since_contact": 10,
+    "status": "almost due",
+    "tags": ["gym", "fitness"],
+    "bio": "Met at the local gym in Gulshan. We motivate each other during morning runs along the lake.",
+    "goal": 10,
+    "next_due_date": "2025-07-03"
+  },
+  {
+    "id": 5,
+    "name": "Samiul Karim",
+    "picture": "https://randomuser.me/api/portraits/men/12.jpg",
+    "email": "samiul.karim1995@gmail.com",
+    "days_since_contact": 4,
+    "status": "on-track",
+    "tags": ["gaming", "online"],
+    "bio": "Online gaming buddy from PUBG days. Still play together every weekend despite living in different cities.",
+    "goal": 7,
+    "next_due_date": "2025-07-04"
+  },
+  {
+    "id": 6,
+    "name": "Priya Das",
+    "picture": "https://randomuser.me/api/portraits/women/68.jpg",
+    "email": "priya.das.chittagong@gmail.com",
+    "days_since_contact": 32,
+    "status": "overdue",
+    "tags": ["neighbor", "family friend"],
+    "bio": "Grew up in the same apartment building in Chittagong. Our families still celebrate Eid together.",
+    "goal": 45,
+    "next_due_date": "2025-06-21"
+  },
+  {
+    "id": 7,
+    "name": "Tareq Rahman",
+    "picture": "https://randomuser.me/api/portraits/men/88.jpg",
+    "email": "tareq.rahman@protonmail.com",
+    "days_since_contact": 12,
+    "status": "almost due",
+    "tags": ["travel", "adventure"],
+    "bio": "Traveled together to Cox's Bazar and the Sundarbans. Always planning the next trip.",
+    "goal": 15,
+    "next_due_date": "2025-07-05"
+  },
+  {
+    "id": 8,
+    "name": "Laila Begum",
+    "picture": "https://randomuser.me/api/portraits/women/33.jpg",
+    "email": "laila.begum@icloud.com",
+    "days_since_contact": 8,
+    "status": "on-track",
+    "tags": ["book club", "literature"],
+    "bio": "Book club member who introduced me to Bangla literature. We discuss novels over tea.",
+    "goal": 14,
+    "next_due_date": "2025-07-07"
+  }
+]
