@@ -8,6 +8,7 @@ import HomeLayOut from './Home/HomeLayOut'
 import TimeLinePage from './Pages/TimeLinePage'
 import StartsPage from './Pages/StartsPage'
 import FriendsDetails from './Component/FriendsDetails/FriendsDetails'
+import FriendCardProvider from './Context/FriendCardProvider'
 
 const router=createBrowserRouter([
   {
@@ -23,6 +24,10 @@ const router=createBrowserRouter([
 ])
 createRoot(document.getElementById('root')).render(
   <StrictMode>
+    <FriendCardProvider>
+
     <RouterProvider router={router}/>
+    </FriendCardProvider>
+    
   </StrictMode>,
 )

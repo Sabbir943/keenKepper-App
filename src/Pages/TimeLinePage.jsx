@@ -1,9 +1,17 @@
-import React from 'react';
+import React, { useContext } from 'react';
+import { FriendCardContext } from '../Context/FriendCardContext';
+import HistroyPage from './HistroyPage';
+
+
 
 const TimeLinePage = () => {
+  
+    
     return (
-        <div>
-            <h1>This is TimeLine Page</h1>
+        <div className='w-10/12 mx-auto'>
+            <h1 className='text-3xl font-bold my-15'>Timeline </h1>
+              <HistroyPage/>
+         
         </div>
     );
 };
