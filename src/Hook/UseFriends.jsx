@@ -11,7 +11,7 @@ const UseFriends = () => {
 
             setFriendsData(friData);
             setLoading(false);
-        },2000)
+        },1300)
 
      }
      fetchData();

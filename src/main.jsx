@@ -9,6 +9,7 @@ import TimeLinePage from './Pages/TimeLinePage'
 import StartsPage from './Pages/StartsPage'
 import FriendsDetails from './Component/FriendsDetails/FriendsDetails'
 import FriendCardProvider from './Context/FriendCardProvider'
+import Error from './ErrorMassage/Error'
 
 const router=createBrowserRouter([
   {
@@ -19,7 +20,8 @@ const router=createBrowserRouter([
       {path:'/timeLine',Component:TimeLinePage},
       {path:"/starts", Component:StartsPage},
       {path:"home/:id",Component:FriendsDetails}
-    ]
+    ],
+    errorElement:<Error/>
   }
 ])
 createRoot(document.getElementById('root')).render(

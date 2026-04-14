@@ -1,12 +1,14 @@
 import React, { useContext } from 'react';
 import { Legend, Pie, PieChart, Tooltip } from 'recharts';
+import { FriendCardContext } from '../Context/FriendCardContext';
 
 
 const StartsPage = () => {
+    const{call,text,video}=useContext(FriendCardContext);
     const data = [
-  { name: 'Call', value: 400, fill: '#0088FE' },
-  { name: 'Text', value: 300, fill: '#00C49F' },
-  { name: 'Video', value: 300, fill: '#FFBB28' }
+  { name: 'Call', value: call.length, fill: '#0088FE' },
+  { name: 'Text', value: text.length, fill: '#00C49F' },
+  { name: 'Video', value: video.length, fill: '#FFBB28' }
   
 ];
     return (
