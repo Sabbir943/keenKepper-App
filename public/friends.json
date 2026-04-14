@@ -7,7 +7,7 @@
     "days_since_contact": 22,
     "status": "overdue",
     "tags": ["school", "childhood"],
-    "bio": "Childhood best friend from primary school in Old Dhaka. We used to play street cricket until sunset and share one plate of fuchka.",
+    "bio": "Childhood best friend from Old Dhaka streets.",
     "goal": 14,
     "next_due_date": "2025-06-30"
   },
@@ -19,7 +19,7 @@
     "days_since_contact": 9,
     "status": "on-track",
     "tags": ["university", "close friend"],
-    "bio": "BUET roommate and study partner. We survived tough engineering semesters together and still celebrate every result with rooftop biryani.",
+    "bio": "BUET roommate who survived tough engineering semesters.",
     "goal": 21,
     "next_due_date": "2025-07-12"
   },
@@ -31,7 +31,7 @@
     "days_since_contact": 28,
     "status": "overdue",
     "tags": ["work", "colleague"],
-    "bio": "Ex-colleague from Robi Axiata. We bonded during crazy office deadlines and weekend tea breaks at the Gulshan cafeteria.",
+    "bio": "Former colleague at Robi Axiata office.",
     "goal": 30,
     "next_due_date": "2025-06-25"
   },
@@ -43,7 +43,7 @@
     "days_since_contact": 11,
     "status": "almost due",
     "tags": ["gym", "fitness"],
-    "bio": "Met at the Banani gym. We push each other during early morning workouts and share healthy iftar recipes during Ramadan.",
+    "bio": "Banani gym buddy for morning workouts.",
     "goal": 10,
     "next_due_date": "2025-07-02"
   },
@@ -55,7 +55,7 @@
     "days_since_contact": 5,
     "status": "on-track",
     "tags": ["gaming", "online"],
-    "bio": "Long-time Valorant and BGMI squad mate. Even after he moved to Sylhet, we still play ranked matches every Thursday night.",
+    "bio": "BGMI squad mate who lives in Sylhet.",
     "goal": 7,
     "next_due_date": "2025-07-08"
   },
@@ -67,7 +67,7 @@
     "days_since_contact": 35,
     "status": "overdue",
     "tags": ["neighbor", "family friend"],
-    "bio": "Grew up in the same building in Chittagong. Our families still meet for Durga Puja and exchange homemade sweets during festivals.",
+    "bio": "Grew up together in Chittagong apartment building.",
     "goal": 45,
     "next_due_date": "2025-06-18"
   },
@@ -79,7 +79,7 @@
     "days_since_contact": 14,
     "status": "almost due",
     "tags": ["travel", "adventure"],
-    "bio": "Travel buddy from our Cox's Bazar and Sreemangal trips. Always the one planning the next hill trek or beach camping.",
+    "bio": "Travel buddy for Coxs Bazar beach trips.",
     "goal": 15,
     "next_due_date": "2025-07-06"
   },
@@ -91,7 +91,7 @@
     "days_since_contact": 6,
     "status": "on-track",
     "tags": ["book club", "literature"],
-    "bio": "Fellow member of our small Dhaka book club. We discuss Humayun Ahmed novels and modern Bangla poetry over chai and shingara.",
+    "bio": "Book club friend who loves Humayun Ahmed novels.",
     "goal": 14,
     "next_due_date": "2025-07-09"
   },
@@ -103,7 +103,7 @@
     "days_since_contact": 19,
     "status": "overdue",
     "tags": ["cricket", "sports"],
-    "bio": "Cricket teammate from local club in Mirpur. We still argue about match strategies and watch Bangladesh matches together.",
+    "bio": "Cricket teammate from Mirpur local club.",
     "goal": 18,
     "next_due_date": "2025-07-01"
   },
@@ -115,7 +115,7 @@
     "days_since_contact": 8,
     "status": "on-track",
     "tags": ["college", "art"],
-    "bio": "Art college friend from Dhaka University. We used to paint together at Charukala and visit art exhibitions on weekends.",
+    "bio": "Art college friend from Dhaka University.",
     "goal": 12,
     "next_due_date": "2025-07-10"
   },
@@ -127,7 +127,7 @@
     "days_since_contact": 16,
     "status": "almost due",
     "tags": ["work", "tech"],
-    "bio": "Tech colleague from a startup in Banani. We debug code together and grab kebabs after long coding sessions.",
+    "bio": "Tech colleague from Banani startup office.",
     "goal": 20,
     "next_due_date": "2025-07-04"
   },
@@ -139,7 +139,7 @@
     "days_since_contact": 12,
     "status": "on-track",
     "tags": ["music", "singing"],
-    "bio": "Met at a music event in Gulshan. We sing Rabindra Sangeet and modern Bengali songs during late-night adda sessions.",
+    "bio": "Music friend who sings Rabindra Sangeet.",
     "goal": 14,
     "next_due_date": "2025-07-11"
   },
@@ -151,7 +151,7 @@
     "days_since_contact": 31,
     "status": "overdue",
     "tags": ["photography", "hobby"],
-    "bio": "Photography partner. We roam around Dhaka for street photography and edit photos together at cafes.",
+    "bio": "Street photography partner around Dhaka city.",
     "goal": 25,
     "next_due_date": "2025-06-22"
   },
@@ -163,7 +163,7 @@
     "days_since_contact": 7,
     "status": "on-track",
     "tags": ["food", "cooking"],
-    "bio": "Cooking enthusiast friend. We experiment with new recipes and host small iftar or dinner parties at home.",
+    "bio": "Cooking buddy who experiments with new recipes.",
     "goal": 10,
     "next_due_date": "2025-07-13"
   },
@@ -175,7 +175,7 @@
     "days_since_contact": 24,
     "status": "overdue",
     "tags": ["business", "friend"],
-    "bio": "Business network friend from Bashundhara. We discuss startup ideas and market trends over tea in the city.",
+    "bio": "Business friend from Bashundhara city area.",
     "goal": 21,
     "next_due_date": "2025-06-29"
   },
@@ -186,8 +186,8 @@
     "email": "sadia.islam.edu@gmail.com",
     "days_since_contact": 10,
     "status": "almost due",
-    "tags": ["school", "teacher"],
-    "bio": "Former school teacher and mentor. Still seek her advice on career and life decisions over phone calls.",
+    "tags": ["school", "mentor"],
+    "bio": "Former school teacher and life mentor.",
     "goal": 15,
     "next_due_date": "2025-07-03"
   }

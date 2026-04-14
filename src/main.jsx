@@ -7,6 +7,7 @@ import MainLayOut from './Root/MainLayOut'
 import HomeLayOut from './Home/HomeLayOut'
 import TimeLinePage from './Pages/TimeLinePage'
 import StartsPage from './Pages/StartsPage'
+import FriendsDetails from './Component/FriendsDetails/FriendsDetails'
 
 const router=createBrowserRouter([
   {
@@ -14,8 +15,9 @@ const router=createBrowserRouter([
     Component:MainLayOut,
     children:[
       {index:true,Component:HomeLayOut},
-      {path:'timeLine',Component:TimeLinePage},
-      {path:"starts", Component:StartsPage}
+      {path:'/timeLine',Component:TimeLinePage},
+      {path:"/starts", Component:StartsPage},
+      {path:"home/:id",Component:FriendsDetails}
     ]
   }
 ])
