@@ -4,21 +4,30 @@ import videoImg from '../assets/Images/video.png'
 import textImg from '../assets/Images/text.png'
 import { FriendCardContext } from '../Context/FriendCardContext';
 import historyImg from '../assets/Images/NoFound.jpg'
-const HistroyPage = () => {
+const HistroyPage = ({filter,search}) => {
     const{call,text,video}=useContext(FriendCardContext);
     const currentDate=new Date().toLocaleDateString();
-    console.log(call.length,'call')
-    console.log(text.length,'text')
-    console.log(video.length,'video')
+    const isEmpty=call.length==0&&text.length==0&&video.length==0;
+    const showCall=filter==='all'||filter==='call'
+    const showText=filter==='all'||filter==='text'
+    const showVideo=filter==='all'||filter==='video'
+    const searchFilter=(list)=>
+        list.filter(item=>item.name.toLowerCase().includes(search.toLowerCase()))
+
+    
+    const filteredCall=searchFilter(call)
+    const filteredvideo=searchFilter(video)
+    const filteredtext=searchFilter(text)
+ 
     return (
         <div>
            {
-            call.length==0&&text.length==0&&video.length==0?<div className='text-center space-y-3 bg-base-300 p-6 rounded-2xl shadow-2xl my-10'>
+            isEmpty?<div className='text-center space-y-3 bg-base-300 p-6 rounded-2xl shadow-2xl my-10'>
                 <h1 className='text-2xl font-bold'>No contacts yet</h1>
                 <img className='h-[30vh] mx-auto my-10' src={historyImg} alt="" />
             </div>: <div>
                 {
-            call.map(item1=>(
+              showCall&&filteredCall.map(item1=>(
                 <div className='flex items-center gap-3 bg-base-100 rounded-2xl shadow-2xl p-6 mb-5'>
                    <img className='h-[5vh]' src={callImg} alt="callImg" />
                    <div>
@@ -30,7 +39,7 @@ const HistroyPage = () => {
            }
            
            {
-            text.map(item2=>(
+             showText&&filteredtext.map(item2=>(
                 <div className=' flex items-center gap-3 bg-base-100 rounded-2xl shadow-2xl p-6 mb-5'>
                    <img className='h-[5vh]' src={textImg} alt="callImg" />
                    <div>
@@ -41,7 +50,7 @@ const HistroyPage = () => {
             ))
            }
            {
-            video.map(item3=>(
+            showVideo&&filteredvideo.map(item3=>(
                 <div className='flex items-center gap-3 bg-base-100 rounded-2xl shadow-2xl p-6 mb-5'>
                    <img className='h-[5vh]' src={videoImg} alt="callImg" />
                    <div>
@@ -59,3 +68,5 @@ const HistroyPage = () => {
 };
 
 export default HistroyPage;
+
+
