@@ -17,14 +17,14 @@ const Footer = () => {
                <li><a href=""><FaXTwitter /></a></li>
             </ul>
             <hr className='text-gray-300 mt-6'></hr>
-            <div className='w-8/12 mx-auto flex justify-between items-center text-white'>
+            <div className='w-8/12 mx-auto flex flex-col md:flex-row justify-between items-center text-white'>
 
             <div>
                 © 2026 KeenKeeper. All rights reserved.
             </div>
 
             <div>
-                <ul className='flex justify-between gap-8 items-center'>
+                <ul className='flex flex-col md:flex-row justify-between gap-8 items-center'>
                     <li><a href="/">Privacy Policy</a></li>
                     <li><a href="/">  Terms of Service   </a></li>
                     <li><a href="/">  Cookies   </a></li>

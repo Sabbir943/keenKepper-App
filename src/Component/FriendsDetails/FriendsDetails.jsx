@@ -37,7 +37,7 @@ const FriendsDetails = () => {
     }
     return (
         <div className='w-10/12 mx-auto my-10'>
-            <div className='grid grid-cols-2'>
+            <div className='grid grid-cols-1 place-items-center md:grid-cols-2'>
 
                 <div className='left-side  w-3/4 '>
 
@@ -71,16 +71,16 @@ const FriendsDetails = () => {
 
                     <div className='flex gap-5 mb-10'>
                         <div className='rounded-2xl shadow-2xl p-6 text-center' >
-                            <p className='text-2xl font-bold'>{expectedCard.days_since_contact}</p>
+                            <p className='text-xl font-bold'>{expectedCard.days_since_contact}</p>
                             <p className='text-gray-400'>Days Since Contact</p>
                         </div>
                         <div className=' rounded-2xl shadow-2xl p-6 text-center'>
-                            <p className='text-2xl font-bold'>{expectedCard.goal}</p>
+                            <p className='text-xl font-bold'>{expectedCard.goal}</p>
                             <p className='text-gray-400'>Goal (Days)</p>
                         </div>
 
                         <div className='rounded-2xl shadow-2xl p-6 text-center'>
-                            <p className='text-2xl font-bold'>{expectedCard.next_due_date}</p>
+                            <p className='text-xl font-bold'>{expectedCard.next_due_date}</p>
                             <p className='text-gray-400'>Next Due</p>
                         </div>
                     </div>
