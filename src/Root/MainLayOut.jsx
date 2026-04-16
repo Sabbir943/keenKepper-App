@@ -10,7 +10,7 @@ const MainLayOut = () => {
             <NavBar/>
             <Outlet/>
             <Footer/>
-             <ToastContainer />
+             <ToastContainer position="top-center" />
         </div>
     );
 };

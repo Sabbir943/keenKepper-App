@@ -42,7 +42,7 @@ const FriendsDetails = () => {
                 <div className='left-side  w-3/4 '>
 
                     <div className='rounded-2xl text-center shadow-2xl mb-6 p-5'>
-                        <img className='rounded-full mx-auto' src={expectedCard.picture} alt="" />
+                        <img className='rounded-full mx-auto w-[40vh] h-[40vh]' src={expectedCard.picture} alt="" />
                         <h1 className='text-2xl font-bold'>{expectedCard.name}</h1>
                         <button className={`${expectedCard.status === 'overdue' ? "bg-orange-300  text-white rounded-xl p-2" : expectedCard.status === 'on-track' ? "bg-green-500 text-white rounded-xl p-2" : " bg-red-500 text-white rounded-xl p-2"}`}>{expectedCard.status}</button>
                         <br />

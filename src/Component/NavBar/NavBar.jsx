@@ -24,7 +24,7 @@ const NavBar = () => {
     <p className='text-2xl font-bold'>Keen<span className='text-green-800'>Kepper</span></p>
   </div>
             <div className="hidden md:flex ">
-    <ul className="menu menu-horizontal px-1 gap-3 font-bold">
+    <ul className="menu menu-horizontal px-1 gap-3 font-bold ">
      
      {myLink}
     </ul>
@@ -37,7 +37,7 @@ const NavBar = () => {
       </div>
       <ul
         tabIndex="-1"
-        className="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow">
+        className="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow ">
        {myLink}
       </ul>
     </div>
